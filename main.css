@@ -1,0 +1,47 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #005AA7 , #FFFDE4);
+    background: linear-gradient(to right, #005AA7 , #FFFDE4);
+
+    color: white;
+}
+
+#location {
+    display: block;
+    border: none;
+    background: #302b63;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFFDE4;
+    outline: none;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#location::placeholder {
+    color: aqua;
+}
+
+#show { 
+    display: block;
+    border: none;
+    margin-top: 15px;
+    margin-left: 15%;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFFDE4;
+    outline: none;
+    width: 70%;
+    font-size: 30px;
+    font-weight: 400;       
+    background: #6D6027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight:bold;
+}
